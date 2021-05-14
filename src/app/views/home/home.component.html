@@ -1,0 +1,32 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>
+      <mat-icon>book</mat-icon> Password Manager</span>
+      <span class="navBar"></span>
+      <button mat-raised-button> <mat-icon>exit</mat-icon>Logout</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+<div class="signin-content">
+  <mat-card>
+    <mat-card-content>
+      <!-- <form [formGroup]="form" (ngSubmit)="onSubmit()"> -->
+        <p>Digite seu login para continuar.</p>
+        <mat-form-field class="full-width-input">
+          <input matInput placeholder="Usuário" formControlName="userName" required>
+          <!-- <mat-error *ngIf="isFieldInvalid('userName')"> -->
+            <!-- Por favor informe seu nome de usuário. -->
+          <!-- </mat-error> -->
+        </mat-form-field>
+        <mat-form-field class="full-width-input">
+          <input matInput type="password" placeholder="Senha" formControlName="password" required>
+          <!-- <mat-error *ngIf="isFieldInvalid('userName')"> -->
+            <!-- Por favor informe sua senha. -->
+          <!-- </mat-error> -->
+        </mat-form-field>
+        <button mat-raised-button color="primary">Login</button>
+      <!-- </form> -->
+    </mat-card-content>
+  </mat-card>
+</div>
