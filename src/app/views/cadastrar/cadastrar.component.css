@@ -1,0 +1,25 @@
+.navBar{
+  flex: 1 1 auto;
+ }
+
+ .cadastrar{
+  padding-left: 155px;
+}
+
+ .pesquisa-form {
+  min-width: 550px;
+  max-width: 800px;
+  padding-right: 35px;
+}
+
+
+ .form {
+  /* min-width: 150px;
+  max-width: 500px; */
+  width: 100%;
+  
+}
+
+.pesquisa {
+  padding: 25px;
+}

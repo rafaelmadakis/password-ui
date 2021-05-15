@@ -15,6 +15,8 @@ import { AppComponent } from './app.component';
 import { GridPesquisaComponent } from './views/grid-pesquisa/grid-pesquisa.component';
 import { HomeComponent } from './views/home/home.component';
 import { PesquisarComponent } from './views/pesquisar/pesquisar.component';
+import { RemoverComponent } from './views/remover/remover.component';
+import { CadastrarComponent } from './views/cadastrar/cadastrar.component';
 
 
 @NgModule({
@@ -23,6 +25,8 @@ import { PesquisarComponent } from './views/pesquisar/pesquisar.component';
     HomeComponent,
     PesquisarComponent,
     GridPesquisaComponent,
+    RemoverComponent,
+    CadastrarComponent,
     
   ],
   imports: [

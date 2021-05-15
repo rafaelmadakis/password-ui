@@ -1,0 +1,20 @@
+<form class="form"> 
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>
+        <mat-icon>book</mat-icon> Password Manager</span>        
+        <span class="remover">Remover</span>
+        <span class="navBar"></span>
+        <a href="javascript:;"><mat-icon svgIcon="exit"></mat-icon></a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <br><br>
+
+  <form class="pesquisa-form">
+    <mat-form-field class="pesquisa">
+      <mat-label>Digite o código que deseja remover</mat-label>
+      <input matInput placeholder="Ex. 1" value="     " class="pesquisa">
+    </mat-form-field>
+    <a button mat-button>Remover</a>
+    </form>
+    <app-grid-pesquisa></app-grid-pesquisa>

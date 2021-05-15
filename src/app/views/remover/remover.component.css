@@ -1,0 +1,13 @@
+.navBar{
+  flex: 1 1 auto;
+ }
+
+ .remover{
+   padding-left: 155px;
+ }
+
+ .pesquisa-form {
+  min-width: 550px;
+  max-width: 800px;
+  padding-right: 35px;
+}
