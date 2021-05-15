@@ -1,0 +1,14 @@
+table {
+  width: 100%;
+}
+
+.col-sistema{
+  width: 120px;
+  text-align: center;
+}
+
+.col-password{
+  width: 550px;
+  text-align: center;
+  font-size: large;
+}

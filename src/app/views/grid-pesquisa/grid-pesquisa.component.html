@@ -1,0 +1,37 @@
+<div class="pesquisa">
+  <div class="mat-elevation-z8">
+    <table mat-table [dataSource]="dataSource">
+
+      <!-- ID Column -->
+      <ng-container matColumnDef="ID">
+        <th mat-header-cell *matHeaderCellDef> ID </th>
+        <td mat-cell *matCellDef="let element"> {{element.ID}} </td>
+      </ng-container>
+
+      <!-- Sistema Column -->
+      <ng-container matColumnDef="Sistema" styleClass="col-sistema">
+        <th mat-header-cell *matHeaderCellDef> Sistema </th>
+        <td mat-cell *matCellDef="let element"> {{element.Sistema}} </td>
+      </ng-container>
+
+      <!-- Password Column -->
+      <ng-container matColumnDef="Password" styleClass="col-password">
+        <th mat-header-cell *matHeaderCellDef> Password </th>
+        <td mat-cell *matCellDef="let element"> {{element.Password}} </td>
+      </ng-container>
+
+      <!-- Acoes Column -->
+      <ng-container matColumnDef="Acoes">
+        <!-- <a button mat-button>Basic</a> -->
+          <th mat-header-cell *matHeaderCellDef> Açoes </th>
+          <td mat-cell *matCellDef="let element"></td> 
+
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+  </div>
+</div>
