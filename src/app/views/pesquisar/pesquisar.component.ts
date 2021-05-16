@@ -11,12 +11,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class PesquisarComponent implements OnInit {
 
   constructor(
-    private matIconRegistry: MatIconRegistry,
-    private domSanitizer: DomSanitizer) {
-    this.matIconRegistry.addSvgIcon(
-      `exit`,
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/exit_to_app_black_24dp.svg")
-    );
+   ) {
+  
   }
 
   ngOnInit(): void {

@@ -8,6 +8,7 @@ import { GridPesquisaComponent } from './../grid-pesquisa/grid-pesquisa.componen
 import { PesquisarComponent } from './pesquisar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatLabel } from '@angular/material/form-field';
 
 
 
@@ -27,7 +28,8 @@ import { CommonModule } from '@angular/common';
     MatInputModule,
     MatPaginatorModule,
     MatTableModule,
-    BrowserModule,
+    BrowserModule
+
     
 
   ]

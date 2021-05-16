@@ -8,7 +8,7 @@ import { PesquisarComponent } from './views/pesquisar/pesquisar.component';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: PesquisarComponent
   }
 ];
 

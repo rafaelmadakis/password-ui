@@ -1,3 +1,5 @@
+import { PesquisarModule } from './views/pesquisar/pesquisar.module';
+import { PesquisarComponent } from './views/pesquisar/pesquisar.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -22,7 +24,10 @@ import { HomeModule } from './views/home/home.module';
     HttpClientModule,
 
     CoreModule,
-    HomeModule
+    HomeModule,
+    PesquisarModule
+    
+    
     
   ],
   providers: [],
