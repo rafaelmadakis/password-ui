@@ -1,15 +1,15 @@
-import { PesquisarModule } from './views/pesquisar/pesquisar.module';
-import { PesquisarComponent } from './views/pesquisar/pesquisar.component';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { CoreModule } from './core/core.module';
+import { GridPesquisaModule } from './views/grid-pesquisa/grid-pesquisa.module';
 import { HomeModule } from './views/home/home.module';
+import { PesquisarModule } from './views/pesquisar/pesquisar.module';
+
+
 
 
 @NgModule({
@@ -25,7 +25,9 @@ import { HomeModule } from './views/home/home.module';
 
     CoreModule,
     HomeModule,
-    PesquisarModule
+    PesquisarModule,
+    GridPesquisaModule
+    
     
     
     
