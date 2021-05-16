@@ -1,3 +1,4 @@
+import { HomeComponent } from './views/home/home.component';
 import { CadastrarComponent } from './views/cadastrar/cadastrar.component';
 import { RemoverComponent } from './views/remover/remover.component';
 import { NgModule } from '@angular/core';
@@ -7,7 +8,7 @@ import { PesquisarComponent } from './views/pesquisar/pesquisar.component';
 const routes: Routes = [
   {
     path: '',
-    component: CadastrarComponent
+    component: HomeComponent
   }
 ];
 
